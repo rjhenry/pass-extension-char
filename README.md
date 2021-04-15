@@ -43,6 +43,7 @@ sudo make install
 git clone https://github.com/rjhenry/pass-extension-char
 mkdir -p ~/.password-store/.extensions
 ln -s $(pwd)/pass-extension-char/char.bash ~/.password-store/.extensions/
+echo PASSWORD_STORE_ENABLE_EXTENSIONS=true >> ~/.bashrc
 # To add completion:
 # sudo -l -s $(pwd)/pass-extension-char/pass-char.bash.completion \
   /etc/bash_completion.d/pass-char
