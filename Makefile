@@ -27,7 +27,7 @@ install:
 uninstall:
 	rm -vrf \
 		"$(DESTDIR)$(SYSTEM_EXTENSION_DIR)/$(PROG).bash" \
-		"$(DESTDIR)$(BASHCOMPDIR)/pass-otp"
+		"$(DESTDIR)$(BASHCOMPDIR)/pass-$(PROG)"
 
 lint:
 	shellcheck -s bash $(PROG).bash
