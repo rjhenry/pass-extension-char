@@ -45,7 +45,7 @@ mkdir -p ~/.password-store/.extensions
 ln -s $(pwd)/pass-extension-char/char.bash ~/.password-store/.extensions/
 echo PASSWORD_STORE_ENABLE_EXTENSIONS=true >> ~/.bashrc
 # To add completion:
-# sudo -l -s $(pwd)/pass-extension-char/pass-char.bash.completion \
+# sudo ln -s $(pwd)/pass-extension-char/pass-char.bash.completion \
   /etc/bash_completion.d/pass-char
 ```
 
