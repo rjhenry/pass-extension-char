@@ -34,7 +34,7 @@ $ pass char Demo 11
 ### Globally, from git
 ```
 git clone https://github.com/rjhenry/pass-extension-char
-cd pass-char
+cd pass-extension-char
 sudo make install
 ```
 
